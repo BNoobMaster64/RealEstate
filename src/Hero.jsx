@@ -2,7 +2,7 @@ import React from 'react'
 import vid from './assets/Hero.mp4'
 import abtimg from './assets/abtimg.jpg'
 
-const Hero = ({ vidsrc = '/assets/Hero.mp4' }) => {
+const Hero = ({ vidsrc = './Hero.mp4' }) => {
   return (
     <>
       <div className="relative">
