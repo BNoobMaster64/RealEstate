@@ -23,7 +23,7 @@ console.log(formData)
   const submitHandler=async()=>{
   try {
       // Make POST request
-      const response = await axios.post('http://localhost:5000/send', formData);
+      const response = await axios.post('https://deployserver-4rqv.onrender.com/send', formData);
       console.log('Response:', response.data);
 
       // Clear form data after successful submission
