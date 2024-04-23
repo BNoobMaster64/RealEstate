@@ -1,5 +1,5 @@
 import React from 'react'
-import vid from '/assets/Hero.mp4'
+import vid from './assets/Hero.mp4'
 import abtimg from './assets/abtimg.jpg'
 
 const Hero = ({ vidsrc }) => {
