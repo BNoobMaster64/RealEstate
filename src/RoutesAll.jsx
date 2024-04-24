@@ -21,7 +21,7 @@ const RoutesAll = () => {
         <Navbar></Navbar>
       </div>
       <div className="-mt-24" id="hero">
-        <Hero vidsrc=".\public\Hero.mp4" />
+        <Hero vidsrc="\Hero.mp4" />
       </div>
       <div id="aboutus">
         <Abt />
